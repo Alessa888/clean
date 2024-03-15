@@ -1,21 +1,6 @@
-//Подключение шрифта от гугл, вкладка импорт, ссылка между тегами стайл
-//@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&display=swap&subset=cyrillic-ext');
-
-/*Скачанные конвертированные шрифты, поменять название ff на более читабельное/жирность/стиль и указать правильный путь ../fonts, если конвертировать с сайта https://www.font2web.com/, то в архиве найдешь код который ниже
-@font-face {
-	font-family: 'PFDinTextCondPro';
-	src: url('../fonts/pfdintextcondpro-regular.eot');
-	src: local('☺'), url('../fonts/pfdintextcondpro-regular.woff') format('woff'), url('../fonts/pfdintextcondpro-regular.ttf') format('truetype'), url('../fonts/pfdintextcondpro-regular.svg') format('svg');
-	font-weight: normal;
-	font-style: italic;
-}
-@font-face {
-	font-family: 'PFDinTextCondPro';
-	src: url('../fonts/pfdintextcondpro-medium.eot');
-	src: local('☺'), url('../fonts/pfdintextcondpro-medium.woff') format('woff'), url('../fonts/pfdintextcondpro-medium.ttf') format('truetype'), url('../fonts/pfdintextcondpro-medium.svg') format('svg');
-	font-weight: 500;
-	font-style: normal;
-}
-*/
-
+@import "fonts.scss";
 @import "nullstyle.scss";
+@import "main.scss";
+@import "header.scss";
+@import "prices.scss";
+@import "specialOffer.scss";
