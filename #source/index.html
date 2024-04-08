@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<!--Показывает в какой версии html написана стр, браузеру важно понимать это, т.к от этого зависит в каком формате он будет считывать разметку-->
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8"> <!--Кодировка utf-8-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Для правильного масштабирования страницы при входе с любых девайсов-->
+	<title>Название страницы</title>
+	<meta name="description" content="Описание страницы сайта"><!--рекомендуется не больше 160 символов-->
+	<meta name="keywords" content="Ключивые слова для сайта"><!--записываются, через, запятую-->
+	<!--Styling-->
+	<meta name="theme-color" content="">
+	<link rel="apple-touch-icon" href=""> <!--180x180px-->
+	<link rel="icon" type="image/x-icon" href="#"><!--разрешение не менее 16x16px, можно 32x32px, 64x64px-->
+	<!--OG(ссылки)-->
+	<meta property="og:title" content=""> <!--Название страницы-->
+	<meta property="og:description" content="">
+	<meta property="og:type" content="article"> <!--Фиксированное значение, менять не надо-->
+	<meta property="og:image" content="https://google.com/image.png"> <!--Поменять картинку, не более 700px-->
+	<meta property="og:site_name" content=""> <!--Название сайта, бренда-->
+	<meta property="og:url" content="http://911it.by/">
+	<!--Fonts-->
+	<!-- Bootstrap -->
+	<!--Css-->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header class="header header-bg" id="header">
+		<img class="header-bg__1 header-bg__elem" src="img/header/bg/c_b.svg" alt="">
+		<img class="header-bg__2 header-bg__elem" src="img/header/bg/green_blur.svg" alt="">
+		<img class="header-bg__3 header-bg__elem" src="img/header/bg/l_b.svg" alt="">
+		<img class="header-bg__4 header-bg__elem" src="img/header/bg/r_lt.svg" alt="">
+		<img class="header-bg__5 header-bg__elem" src="img/header/bg/r_rb.svg" alt="">
+		<img class="header-bg__6 header-bg__elem" src="img/header/bg/r_rt.svg" alt="">
+		<div class="container header-container">
+			<div class="header__nav">
+				<img class="nav-logo" src="img/header/all/logo.svg" alt="Sirius Clean">
+				<div class="nav-btn">
+					<a class="nav-btn__call-modal btn-modal" href="#">
+						<img src="img/header/all//phone_icon.svg" alt="Заказать чистку">
+					</a>
+					<a class="nav-btn__call" href="tel:+74951563374" target="_blank">+7 (495) 156-33-74</a>
+					<a class="nav-btn__btn-modal btn-modal btn-modal_mod1" href="#">Заказать звонок</a>
+				</div>
+			</div>
+			<div class="header__content">
+				<div class="header__content-left section-content-left">
+					<h1 class="header__content-title section-title">
+						Профессиональная химчистка <span class="green">диванов</span>
+					</h1>
+					<div class="header__content-wrap span-zig">
+						<div class="header__content-wrap-in section-left__content-wrap-in">
+							<p class="header__content-text section-left__content-text">
+								Профессиональное очищение вашей мебели от загрязнений
+							</p>
+							<a class="header__content-btn btn-modal btn-modal_mod2" href="#"><p class="header__content-btn-text btn-modal_mod2-text">Заказать химчистку</p></a>
+						</div>
+					</div>
+				</div>
+				<div class="header__content-right">
+					<div class="header__content-discount">
+						<div class="discount-left-wrap">
+							<div class="discount-left">
+								<p>
+									При заказе <span class="green">сегодня</span> - скидка
+								</p>
+							</div>
+							<div class="discount-right-wrap">
+								<img src="img/header/all/discount_round_bg.svg" alt="">
+								<span class="discount-right">25<sup>%</sup></span>
+							</div>
+						</div>
+					</div>
+					<img class="header__content-img" src="img/header/all/couch.svg" alt="Диван">
+				</div>
+			</div>
+			<div class="header__items">
+				<div class="header__item">
+					<img src="img/header/all/time.svg" alt="time">
+					<h5 class="header__item-title">Оперативность</h5>
+					<p class="header__item-desc">
+						Выезд к вам в течении 20 минут
+					</p>
+				</div>
+				<div class="header__item">
+					<img src="img/header/all/safety.svg" alt="safety">
+					<h5 class="header__item-title">Безопасность</h5>
+					<p class="header__item-desc">
+						Используем только безопасную химию
+					</p>
+				</div>
+				<div class="header__item">
+					<img src="img/header/all/money.svg" alt="money">
+					<h5 class="header__item-title">Выгодность</h5>
+					<p class="header__item-desc">
+						Предлагаем лучшие цены на рынке
+					</p>
+				</div>
+				<div class="header__item">
+					<img src="img/header/all/testominals.svg" alt="testominals">
+					<h5 class="header__item-title">Доверие</h5>
+					<p class="header__item-desc">
+						Только положительные отзывы с 2020 года
+					</p>
+				</div>
+				<div class="header__item">
+					<img src="img/header/all/payments.svg" alt="payments">
+					<h5 class="header__item-title">Оплата по факту</h5>
+					<p class="header__item-desc">
+						Оплата только после выполнения работ
+					</p>
+				</div>
+			</div>
+		</div>
+	</header>
+<section class="prices" id="prices">
+    <div class="container">
+        <h2 class="prices__title section-title">
+            Цены на <span class="green">химчистку</span>
+        </h2>
+        <div class="prices__items">
+            <div class="prices__item">
+                <img class="prices__item-img" src="img/price/all/1.png" alt="">
+                <div class="prices__item-wrap">
+                    <h4 class="prices__item-title">Посадочное место</h4>
+                    <p class="prices__item-text">Размеры: от 60см до 80см</p>
+                    <p class="prices__item-price">от 500 ₽</p>
+                </div>
+                <a class="prices__item-btn btn-modal btn-modal_mod3" href="#">
+                    <p class="prices__item-btn-text">Заказать чистку</p>
+                </a>
+            </div>
+            <div class="prices__item">
+                <img class="prices__item-img" src="img/price/all/2.png" alt="">
+                <div class="prices__item-wrap">
+                    <h4 class="prices__item-title">Диван двухместный</h4>
+                    <p class="prices__item-text">Размеры: от 160см до 180см</p>
+                    <p class="prices__item-price">от 700 ₽</p>
+                </div>
+                <a class="prices__item-btn btn-modal btn-modal_mod3" href="#">
+                    <p class="prices__item-btn-text">Заказать чистку</p>
+                </a>
+            </div>
+            <div class="prices__item">
+                <img class="prices__item-img" src="img/price/all/3.png" alt="">
+                <div class="prices__item-wrap">
+                    <h4 class="prices__item-title">Диван трёхместный</h4>
+                    <p class="prices__item-text">Размеры: от 180см до 220см</p>
+                    <p class="prices__item-price">от 1100 ₽</p>
+                </div>
+                <a class="prices__item-btn btn-modal btn-modal_mod3" href="#">
+                    <p class="prices__item-btn-text">Заказать чистку</p>
+                </a>
+            </div>
+            <div class="prices__item">
+                <img class="prices__item-img" src="img/price/all/4.png" alt="">
+                <div class="prices__item-wrap">
+                    <h4 class="prices__item-title">Диван нестандартный</h4>
+                    <p class="prices__item-text">Размеры: от 310см до 480см</p>
+                    <p class="prices__item-price">от 2700 ₽</p>
+                </div>
+                <a class="prices__item-btn btn-modal btn-modal_mod3" href="#">
+                    <p class="prices__item-btn-text">Заказать чистку</p>
+                </a>
+            </div>
+            <div class="prices__item">
+                <img class="prices__item-img" src="img/price/all/5.png" alt="">
+                <div class="prices__item-wrap">
+                    <h4 class="prices__item-title">Диван угловой</h4>
+                    <p class="prices__item-text">Размеры: от 220см до 310см</p>
+                    <span class="prices__item-price">от 1710 ₽</span>
+                    <span class="prices__item-price_grey">от 1900 ₽</span>
+                </div>
+                <a class="prices__item-btn btn-modal btn-modal_mod3" href="#">
+                    <p class="prices__item-btn-text">Заказать чистку</p>
+                </a>
+            </div>
+            <div class="prices__item">
+                <img class="prices__item-img" src="img/price/all/6.png" alt="">
+                <div class="prices__item-wrap">
+                    <h4 class="prices__item-title">Кухонный уголок</h4>
+                    <p class="prices__item-text">Размеры: от 220см до 310см</p>
+                    <p class="prices__item-price">от 1000 ₽</p>
+                </div>
+                <a class="prices__item-btn btn-modal btn-modal_mod3" href="#">
+                    <p class="prices__item-btn-text">Заказать чистку</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="specialOffer">
+		<div class="container specialOffer-container">
+			<div class="bg-img">
+				<img class="specialOffer-bg__1" src="img/specialOffer/bg/blob_green.svg" alt="">
+				<img class="specialOffer-bg__2" src="img/specialOffer/bg/r_rb.svg" alt="">
+				<img class="specialOffer-bg__3" src="img/specialOffer/bg/r_rb.svg" alt="">
+				<img class="specialOffer-bg__4" src="img/specialOffer/bg/xform.svg" alt="">
+			</div>
+			<div class="specialOffer__content-left">
+				<h2 class="specialOffer__content-title section-title">
+					<span class="green">Специальное</span> предложение
+				</h2>
+				<div class="specialOffer__content-wrap span-zig">
+					<div class="specialOffer__content-wrap-in section-left__content-wrap-in">
+						<p class="specialOffer__content-text section-left__content-text">
+							Базовая чистка двухместного дивана
+						</p>
+						<div class="specialOffer__sale">
+							<span class="specialOffer__span specialOffer__span_green">от 700 &#8381</span> вместо <span class="specialOffer__span specialOffer__span_grey">900 &#8381</span>
+						</div>
+						<a class="specialOffer__content-btn btn-modal btn-modal_mod2" href="#"><p class="specialOffer__content-btn-text btn-modal_mod2-text">Заказать химчистку</p></a>
+					</div>
+				</div>
+			</div>
+			<div class="specialOffer__content-right">
+				<img class="specialOffer__right-img1" src="img/specialOffer/all/bg_form.png" alt="">
+				<img class="specialOffer__right-img2" src="img/specialOffer/all/karcher_form.png" alt="">
+			</div>
+			<div class="specialOffer__right"></div>
+		</div>
+	</section>
+
+	<!-- Jquery, Popper, Bootstrap -->
+	<!-- JS here -->
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
