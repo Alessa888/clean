@@ -146,7 +146,7 @@ header
   padding: 20px 0;
   background-color: #fcf8f4;
   height: 100%;
-  background-image: url("../../img/header/bg/header_bg.svg");
+  background-image: url("img/header/bg/header_bg.svg");
   background-position: 50% 0%;
   background-size: cover;
 }

@@ -397,7 +397,7 @@ header
   padding: 20px 0;
   background-color: #fcf8f4;
   height: 100%;
-  background-image: url("../../img/header/bg/header_bg.svg");
+  background-image: url("img/header/bg/header_bg.svg");
   background-position: 50% 0%;
   background-size: cover;
 }
@@ -517,7 +517,7 @@ header
   top: auto;
   left: auto;
   display: block;
-  background: url("../../img/header/all/zigzagline.svg") no-repeat;
+  background: url("img/header/all/zigzagline.svg") no-repeat;
   width: 80px;
   height: 10px;
   margin-left: -40px;
@@ -764,7 +764,7 @@ Prices
 }
 
 .prices__item-text::before {
-  content: url("../../img/price/all/size.svg");
+  content: url("img/price/all/size.svg");
   padding: 0 10px 0 0;
 }
 
@@ -868,7 +868,7 @@ specialOffer
 }
 
 .specialOffer__span_green {
-  background-image: url("/img/specialOffer/all/pricetag_green.svg");
+  background-image: url("img/specialOffer/all/pricetag_green.svg");
   color: #fff;
   font-size: 20px;
   font-family: "Circe", Arial, sans-serif;
@@ -876,7 +876,7 @@ specialOffer
 }
 
 .specialOffer__span_grey {
-  background-image: url("/img/specialOffer/all/pricetag_gray.svg");
+  background-image: url("img/specialOffer/all/pricetag_gray.svg");
   color: #7a6f6f;
   text-decoration: line-through;
   font-size: 20px;
