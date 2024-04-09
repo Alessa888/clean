@@ -872,7 +872,7 @@ result
 }
 
 .specialOffer__span_green {
-  background-image: url("img/specialOffer/all/pricetag_green.svg");
+  background: url("img/specialOffer/all/pricetag_green.svg");
   color: #fff;
   font-size: 20px;
   font-family: "Circe", Arial, sans-serif;
@@ -880,7 +880,7 @@ result
 }
 
 .specialOffer__span_grey {
-  background-image: url("img/specialOffer/all/pricetag_gray.svg");
+  background: url("img/specialOffer/all/pricetag_gray.svg");
   color: #7a6f6f;
   text-decoration: line-through;
   font-size: 20px;
